@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#13B924"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/goalup"
+        android:layout_width="186dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginRight="83dp"
+        android:src="@drawable/goal_up" />
+
+    <Button
+        android:id="@+id/goali"
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="16dp"
+        android:background=" #EB5757"
+        android:paddingLeft="28dp"
+        android:paddingTop="16dp"
+        android:paddingRight="27dp"
+        android:paddingBottom="16dp"
+        android:text="GOAL"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/ut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="72dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="124dp"
+        android:layout_marginLeft="189dp"
+        />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="355dp"
+        android:src="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/ellipse"
+        android:layout_width="184dp"
+        android:layout_height="176dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="275dp"
+        android:src="@drawable/ellipse" />
+    <TextView
+        android:id="@+id/dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="72dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="520dp"
+        android:layout_marginBottom="124dp"
+        android:layout_marginLeft="189dp"
+        />
+    <Button
+        android:id="@+id/goalii"
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:text="GOAL"
+        android:textSize="14dp"
+        android:background=" #EB5757"
+        android:textColor="#FFFFFF"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="28dp"
+        android:paddingRight="27dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="669dp"
+        android:layout_marginBottom="14dp"/>
+
+    <ImageView
+        android:id="@+id/goaldown"
+        android:layout_width="186dp"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginRight="83dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/goal_down" />
+
+
+
+
+</RelativeLayout>
